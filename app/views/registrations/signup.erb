@@ -1,17 +1,9 @@
 <h1>Sign Up Below:</h1>
 
-<form action='/registrations' method="post">
-  <h2>Posts</h2>
-
-  <label for="name"> Name</label><br>
-  <input id="name" type="text" name="user[name]" />
-
-  <label for="mail">Email </label>
-  <input id="mail" type="text" name="user[email]" />
-
-  <label for="pass">Password</label>
-  <input id="pass" type="text" name="user[password]" />
-
-<input type="submit" value="Submit">
+<form  action="/registrations" method="post">
+  <label>Name: <input id="name" type="text" name="name"></label><br>
+  <label>Email: <input id="email" type="text" name="email"></label><br>
+  <label>Password: <input id="password" type="text" name="password"></label><br>
+  <input id="submit" type="submit" name="submit" value="Sign Up">
 
 </form>
